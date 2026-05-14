@@ -8,6 +8,8 @@
 	<string>io.alberti42.LaunchBar.action.RecentEmacsFiles</string>
 	<key>CFBundleName</key>
 	<string>Recent Emacs Files</string>
+	<key>CFBundleVersion</key>
+	<string>0.1.0</string>
 	<key>LBAssociatedApplication</key>
 	<string>org.gnu.Emacs</string>
 	<key>LBDescription</key>
@@ -48,6 +50,6 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>10.10</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2020 Andrea Alberti</string>
+	<string>Copyright © 2026 Andrea Alberti</string>
 </dict>
 </plist>
