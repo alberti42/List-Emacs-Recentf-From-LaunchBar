@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>org.gnu.Emacs</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.alberti42.LaunchBar.action.RecentEmacsFiles</string>
+	<key>CFBundleName</key>
+	<string>Recent Emacs Files</string>
+	<key>LBAssociatedApplication</key>
+	<string>org.gnu.Emacs</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Andrea Alberti</string>
+		<key>LBEmail</key>
+		<string>a.alberti82@gmail.com</string>
+		<key>LBRequirements</key>
+		<string>Emacs</string>
+		<key>LBResult</key>
+		<string>The list of recently opened files with Emacs</string>
+		<key>LBSummary</key>
+		<string>This action returns a list of recently opened files using Emacs editor based on recentf list.</string>
+		<key>LBTwitter</key>
+		<string></string>
+		<key>LBWebsiteURL</key>
+		<string>https://alberti42.github.io/</string>
+	</dict>
+	<key>LBRequiredApplication</key>
+	<string>org.gnu.Emacs</string>
+	<key>LBRequirements</key>
+	<string>Emacs</string>
+	<key>LBResult</key>
+	<string>The list of recently opened files with Emacs</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.py</string>
+		</dict>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.10</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2020 Andrea Alberti</string>
+</dict>
+</plist>
